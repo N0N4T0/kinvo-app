@@ -8,12 +8,22 @@ export const Container = styled.li`
     display: flex;
     align-items: center;
     
-    margin: 5rem 0 0 0.6rem;
+    margin: 5rem 0 0 0;
+    padding: 0 0 0 0.6rem;
 
     & + li {
-        margin: 0 0 0 0.6rem;
+        margin: 0 0 0 0;
     }
+
     cursor: pointer;
+    
+    &:hover{
+        background: var(--cor003);
+
+       div:first-of-type{
+           background: var(--cor011);
+       }
+    }
 `;
 
 export const Icon = styled.div`
