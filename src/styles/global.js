@@ -9,7 +9,7 @@ export const GlobalStyle = createGlobalStyle`
         --cor005: #F5F5F5;
         --cor006: #EEF2F4;
         
-        --cor007: 1px solid rgb(186, 195, 201);
+        --cor007: rgb(186, 195, 201);
         --cor008: #707B81;
         --cor009: gray;
 
