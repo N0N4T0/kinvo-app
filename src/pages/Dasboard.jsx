@@ -11,7 +11,7 @@ import { Top } from "../components/Menu/Top"
 import { Left } from "../components/Menu/Left"
 import { Right } from '../components/Menu/Right'
 
-import { Container, InfoLeft, InfoRight, InfoRightTitle } from "./styles"
+import { Container, Data, InfoLeft, InfoRight, InfoRightTitle } from "./styles"
 import { DashboardData } from '../components/DashboardData'
 
 export function Dashboard(){
@@ -78,7 +78,9 @@ export function Dashboard(){
                         <Right/>
                     </InfoRightTitle>
 
-                    <DashboardData/>
+                    <Data>
+                        <DashboardData/>
+                    </Data>
                 </InfoRight>
             </Container>
         </>

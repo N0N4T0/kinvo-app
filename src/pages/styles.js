@@ -34,3 +34,12 @@ export const InfoRightTitle = styled.div`
     font-family: Helvetica, Arial, sans-serif;
     font-weight: bold;
 `;
+
+export const Data = styled.div`
+    display: flex;
+    flex: 1;
+    background-color: #F5F5F5;
+    flex-direction: column;
+    margin: 0 25px 0 20px;
+    padding: 0 14px;
+`;
