@@ -7,17 +7,18 @@ import projectionImg from '../assets/icones/projecao1.png'
 import circleImg from '../assets/icones/circulo1.png'
 import lockerImg from '../assets/icones/cadeado1.png'
 
-import { Left } from "../components/Menu/Left"
 import { Top } from "../components/Menu/Top"
+import { Left } from "../components/Menu/Left"
+import { Right } from '../components/Menu/Right'
 
-import { Container } from "./styles"
+import { Container, InfoLeft, InfoRight, InfoRightTitle } from "./styles"
 
 export function Dashboard(){
     return (
         <>
             <Top/>
             <Container>
-                <div className="menu-esquerdo">
+                <InfoLeft>
                     <ul>
                         <Left
                             src={clockImg}
@@ -68,8 +69,14 @@ export function Dashboard(){
                             Cobertura do FGC
                         </Left>
                     </ul>
-                </div>
-                <h1>Hello World</h1>
+                </InfoLeft>
+
+                <InfoRight>
+                    <InfoRightTitle>
+                        Análise por Classe de Ativos
+                        <Right/>
+                    </InfoRightTitle>
+                </InfoRight>
             </Container>
         </>
     )

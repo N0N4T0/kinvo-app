@@ -4,19 +4,21 @@ import styled from "styled-components"
 export const Container = styled.li`
     height: 60px;
     border-bottom: 1px solid var(--cor007);
+
+    &:last-child{
+        border: 0;
+    }
     
     display: flex;
     align-items: center;
     
-    margin: 5rem 0 0 0;
+    margin: 0 0 0 0;
     padding: 0 0 0 0.6rem;
-
-    & + li {
-        margin: 0 0 0 0;
-    }
 
     cursor: pointer;
     
+    background: var(--cor006);
+
     &:hover{
         background: var(--cor003);
 
