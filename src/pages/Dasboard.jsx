@@ -12,6 +12,7 @@ import { Left } from "../components/Menu/Left"
 import { Right } from '../components/Menu/Right'
 
 import { Container, InfoLeft, InfoRight, InfoRightTitle } from "./styles"
+import { DashboardData } from '../components/DashboardData'
 
 export function Dashboard(){
     return (
@@ -76,6 +77,8 @@ export function Dashboard(){
                         Análise por Classe de Ativos
                         <Right/>
                     </InfoRightTitle>
+
+                    <DashboardData/>
                 </InfoRight>
             </Container>
         </>

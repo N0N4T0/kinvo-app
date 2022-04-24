@@ -1,4 +1,12 @@
-import { Categories, CategoriesInformations, CategoriesItem, CategoriesTitle, CategoriesValue, Menu, MenuItens, MenuItensTitle } from "./styles"
+import { 
+    Categories, 
+    CategoriesInformations, 
+    CategoriesItem, 
+    CategoriesTitle, 
+    CategoriesValue, 
+    Menu,
+    MenuItens,
+    MenuItensTitle } from "./styles"
 
 export function Right(){
     return(
@@ -9,11 +17,21 @@ export function Right(){
                         Ações
                    </MenuItensTitle>                  
                 </MenuItens>
-                {/* <MenuItens>
+                <MenuItens>
                     <MenuItensTitle>
                         Nome da Classe
                    </MenuItensTitle>
-                </MenuItens> */}
+                </MenuItens>
+                <MenuItens>
+                    <MenuItensTitle>
+                        Nome da Classe
+                   </MenuItensTitle>
+                </MenuItens>
+                <MenuItens>
+                    <MenuItensTitle>
+                        Nome da Classe
+                   </MenuItensTitle>
+                </MenuItens>
             </Menu>
 
             <Categories>
