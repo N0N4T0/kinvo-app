@@ -6,6 +6,7 @@ import {
     Search, 
     SearchContainer, 
     Title,
+    DataBox
  } from "./styles";
 
 
@@ -22,9 +23,20 @@ export function DashboardData(){
                     </Search>
                 </SearchContainer>
             </Categories>
-      
-            <DataItens/>
-            <DataItens/>
+
+            <DataBox>
+                <DataItens/>
+                <DataItens/>
+                <DataItens/>
+                <DataItens/>
+                <DataItens/>
+                <DataItens/>
+                <DataItens/>
+                <DataItens/>
+                <DataItens/>
+            </DataBox>
+
+          
         </Container>
     )
 }

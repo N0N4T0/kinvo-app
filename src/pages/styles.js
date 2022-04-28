@@ -2,13 +2,14 @@ import styled from 'styled-components'
 
 export const Container = styled.div`
     display: flex;
-    height: 800px;
+    /* height: 800px; */
 `;
 
 export const InfoLeft = styled.div`
-    display: flex;
-    background: rgb(245, 245, 245);
-    flex: 1;
+    /* display: flex; */
+    /* background: rgb(245, 245, 245); */
+    /* background: red; */
+    /* flex: 1; */
     max-width: 225px;
 
     ul {
@@ -22,6 +23,7 @@ export const InfoLeft = styled.div`
 export const InfoRight = styled.div`
     display: flex;
     flex: 1;
+    
     background-color: #DAE0E3;
     flex-direction: column;
 `;
@@ -37,9 +39,10 @@ export const InfoRightTitle = styled.div`
 
 export const Data = styled.div`
     display: flex;
-    flex: 1;
+    /* flex: 1; */
+    height: 550px;
     background-color: #F5F5F5;
     flex-direction: column;
-    margin: 0 25px 0 20px;
-    padding: 0 14px;
+    margin: 0 25px 100px 20px;
+    padding: 0 14px 20px;
 `;

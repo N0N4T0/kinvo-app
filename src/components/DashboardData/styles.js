@@ -16,6 +16,12 @@ export const Categories = styled.div`
     margin-bottom: 20px;
 `;
 
+export const DataBox = styled.div`
+    overflow-y: auto;
+    height: 480px;
+    /* background: red; */
+`;
+
 export const Title = styled.div`
     display: flex;
     justify-content: flex-start;
